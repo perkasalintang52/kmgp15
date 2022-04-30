@@ -1,4 +1,4 @@
-// RECODE Rzy-botz
+// RECODE KAMAGAPO BOT
 
 let moment = require('moment-timezone')
 let fetch = require ('node-fetch')
@@ -15,7 +15,7 @@ handler.all = async function (m) {
     if (new Date - user.pc < 86400000) return // setiap 24 jam sekali
     await conn.send2ButtonLoc(m.chat, await(await fetch(thumbfoto)).buffer(), `
 *Hi ${name}, ${ucapan()}*
-Saya adalah Rzy-botz Bot salah satu bot WhatsApp.
+Saya adalah KAMAGAPO BOT salah satu bot WhatsApp.
 
 *Harap untuk tidak menelpon, meminta save, atau spam dalam penggunaan bot*
 Silahkan baca rules dan mematuhi rules demi kenyamanan kita bersama.
